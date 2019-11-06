@@ -16,6 +16,6 @@ def login(request):
 
 @login_required
 # class HomeView(TemplateView):
-def home(request):
-    return render(request, 'home.html')
+    def home(request):
+        return render(request, 'home.html')
 
