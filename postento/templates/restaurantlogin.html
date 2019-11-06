@@ -1,0 +1,23 @@
+<!-- templates/login.html -->
+
+    {% extends 'base.html' %}
+    {% block title %} Postento {% endblock %}
+    {% block content %}
+    <div class="row">
+        <div class="col-md-8 mx-auto social-container my-2 order-md-1">
+            <form>
+	      First name:<br>
+	      <input type="text" name="firstname"><br>
+	      Last name:<br>
+	      <input type="text" name="lastname">
+	      Restaurant:<br>
+	      <input type="text" name="restaurant"><br>
+	      Email address:<br>
+	      <input type="text" name="emailaddress"><br>
+	      Phone number:<br>
+	      <input type="text" name="phonenumber">
+	    </form>
+        </div>
+    </div>
+    </div>
+    {% endblock %}

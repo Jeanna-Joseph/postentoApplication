@@ -2,20 +2,15 @@
 
     {% extends 'base.html' %}
     {% block title %} Postento {% endblock %}
-    {% block title %} Sign Up {% endblock %}
     {% block content %}
     <div class="row">
         <div class="col-md-8 mx-auto social-container my-2 order-md-1">
-            <button class="btn btn-primary mb-2">
-                <a href="#">Student
+            <button>
+                <a href="studentlogin/">Student
                 </a>
             </button>
-	     <button class="btn btn-primary mb-2">
-                <a href="#">Restaurant
-                </a>
-            </button>
-	    <button class="btn btn-primary mb-2">
-                <a href="{% url 'social:begin' 'facebook' %}">Login with Facebook
+	     <button>
+                <a href="restaurantlogin/">Restaurant
                 </a>
             </button>
         </div>
