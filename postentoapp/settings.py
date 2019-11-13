@@ -79,14 +79,14 @@ WSGI_APPLICATION = 'postentoapp.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        # "ENGINE": "django.db.backends.postgresql_psycopg2",
-        # "NAME": "Postento",
-        # "USER": "jeannajoseph",
-        # "PASSWORD": "",
-        # "HOST": "localhost",
-        # "PORT": "",
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": "postento",
+        "USER": "jeannajoseph",
+        "PASSWORD": "",
+        "HOST": "localhost",
+        "PORT": "",
     }
 }
 
@@ -138,6 +138,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'home'

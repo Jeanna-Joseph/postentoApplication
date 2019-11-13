@@ -10,12 +10,13 @@
 	      <input type="text" name="firstname"><br>
 	      Last name:<br>
 	      <input type="text" name="lastname">
-	      Restaurant name:<br>
+	      Restaurant:<br>
 	      <input type="text" name="restaurant"><br>
 	      Email address:<br>
 	      <input type="text" name="emailaddress"><br>
 	      Phone number:<br>
 	      <input type="text" name="phonenumber">
+	      <button type="submit" formaction="submission/">Submit</button>
 	    </form>
         </div>
     </div>
