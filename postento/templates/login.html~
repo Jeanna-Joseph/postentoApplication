@@ -3,17 +3,31 @@
     {% extends 'base.html' %}
     {% block title %} Postento {% endblock %}
     {% block content %}
+            <h2 class ="text-center" >Sign Up</h2>
     <div class="row">
         <div class="col-md-8 mx-auto social-container my-2 order-md-1">
             <button>
-                <a href="studentlogin/">Student
+                <a href="student/">Student
                 </a>
             </button>
 	     <button>
-                <a href="restaurantlogin/">Restaurant
+                <a href="restaurant/">Restaurant
                 </a>
             </button>
         </div>
     </div>
+
+        <h2 class = "text-center">Already have an account? Log In</h2>
+    <div class="row">
+	<div class="col-md-8 mx-auto social-container my-2 order-md-1">
+            <button>
+                <a href="student/">Student
+                </a>
+            </button>
+             <button>
+                <a href="restaurant/">Restaurant
+                </a>
+            </button>
+        </div>
     </div>
     {% endblock %}
